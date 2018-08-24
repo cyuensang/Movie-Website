@@ -1,0 +1,2 @@
+DROP FUNCTION IF EXISTS levenshtein;
+CREATE FUNCTION levenshtein RETURNS INTEGER SONAME 'levenshtein.dll';
